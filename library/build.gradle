@@ -26,14 +26,14 @@ dependencies {
 }
 
 android {
-    compileSdkVersion rootProject.ext.compileSdk
-    buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdkVersion compileSdk
+    buildToolsVersion buildTools
 
     resourcePrefix 'job_'
 
     defaultConfig {
-        minSdkVersion rootProject.ext.minSdk
-        targetSdkVersion rootProject.ext.compileSdk
+        minSdkVersion minSdk
+        targetSdkVersion compileSdk
 
         consumerProguardFiles 'proguard.cfg'
 
